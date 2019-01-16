@@ -49,7 +49,7 @@ css代码
             background: #249ff1;
             width: 50px;
         }
-    </style>
+</style>
 ```
 html代码  
 ```
@@ -69,7 +69,7 @@ html代码
             <td>单元格</td>
             <td>单元格</td>
         </tr>
-    </table>
+</table>
 ```
 
 

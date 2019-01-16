@@ -72,5 +72,5 @@ html代码
 </table>
 ```
 ## 致谢
-特别鸣谢 GXü 提供的技术支持。原创文章，如有任何问题，请您Issues。
+特别鸣谢 GXü 提供技术支持及灵感。原创文章，如有任何问题，请您[Issues](https://github.com/yanyansmile/CSS-Application/issues)。
 

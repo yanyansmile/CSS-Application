@@ -71,6 +71,9 @@ html代码
         </tr>
 </table>
 ```
+## 使用场景
+如上只是提供一种实现的方式，最近做的几个项目是数据管理类的管理平台，有大量的数据展示，数据项目非常多，又不是规范的表格，表格项有多个层级，使用sticky轻松实现，效果是想要的。当然，‘固定’效果，还可使用css+javascript,具体怎么操作可根据您的项目实际情况。
+
 ## 致谢
-特别鸣谢 GXü 提供技术支持及灵感。原创文章，如有任何问题，请您[Issues](https://github.com/yanyansmile/CSS-Application/issues)。
+特别鸣谢 GXü 提供技术支持及灵感。  原创文章，如有任何问题及不足之处，请您[Issues](https://github.com/yanyansmile/CSS-Application/issues)。
 

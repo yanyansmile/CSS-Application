@@ -11,7 +11,7 @@ table表格中当展现的数据项目非常多，表格结构异常复杂时，
 }
 ```
 #### 使用条件：
-1.父元素不能overflow:hidden或者overflow:auto属性。  
+1.父元素不能overflow:hidden或者overflow:auto属性  
 2.必须指定top、bottom、left、right4个值之一，否则只会处于相对定位  
 3.父元素的高度不能低于sticky元素的高度  
 4.sticky元素仅在其父元素内生效  
@@ -21,8 +21,56 @@ table表格中当展现的数据项目非常多，表格结构异常复杂时，
 
 兼容性 [点击查看>>](https://caniuse.com/#search=sticky)
 
-
-
+## sticky示例
+css代码  
+```
+<style>
+        table {
+            height: 500px;
+            background: #f2f2f2;
+        }
+        /* 选取表格第一行 */
+        table tr:first-of-type>th {
+            position: sticky;
+            width: 50px;
+            min-height: 50px;
+            background: #baf124;
+            top: 0;
+        }
+        /* 设置表格首行层级 */
+        table tr:first-of-type>th:first-of-type {
+            z-index: 999999;
+        }
+        /* 选取表格第一列 */
+        table tr>th:nth-child(1),
+        tr>td:nth-child(1) {
+            position: sticky;
+            left: 0;
+            background: #249ff1;
+            width: 50px;
+        }
+    </style>
+```
+html代码  
+```
+<table>
+        <tr>
+            <th>name one</th>
+            <th>name two</th>
+            <th>name three</th>
+            <th>name four</th>
+            <th>name five</th>
+        </tr>
+        <!-- 请自行复制任意多行 -->
+        <tr>
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+            <td>单元格</td>
+        </tr>
+    </table>
+```
 
 
 

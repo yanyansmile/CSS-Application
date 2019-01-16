@@ -3,7 +3,7 @@ table表格中当展现的数据项目非常多，表格结构异常复杂时，
 ## sticky的使用
 基于用户的滚动位置来定位  
 这是一个结合了 position:relative 和 position:fixed 两种定位功能于一体的特殊定位  
-**目标标签一定要选择到th、td，而不是tr**
+**关键在选取：目标标签一定要选择到th、td，而不是tr**
 ```
 {
   position:sticky;
@@ -71,6 +71,6 @@ html代码
         </tr>
 </table>
 ```
-
-
+## 致谢
+特别鸣谢 GXü 提供的技术支持。原创文章，如有任何问题，请您Issues。
 
